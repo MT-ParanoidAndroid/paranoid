@@ -80,6 +80,9 @@ case "$DEVICE" in
    toroplus)
        device="toroplus"
        echo -e "${cya}Building ${bldcya}ParanoidAndroid v$VERSION ${txtrst}${cya}for Sprint Samsung Galaxy Nexus ${txtrst}";;
+   triumph)
+       device="triumph"
+       echo -e "${cya}Building ${bldcya}ParanoidAndroid v$VERSION ${txtrst}${cya}for Motorola Triumph ${txtrst}";;
    *)
        echo -e "${bldred}Wrong input, please select a valid device ${txtrst}"
        exit;;
