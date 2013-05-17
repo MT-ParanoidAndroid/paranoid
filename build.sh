@@ -133,13 +133,13 @@ echo -e "${bldblu}Setting up environment ${txtrst}"
 # lunch device
 echo -e ""
 echo -e "${bldblu}Lunching device ${txtrst}"
-lunch "pa_$device-userdebug";
+lunch "pa_$device-eng";
 
 echo -e ""
 echo -e "${bldblu}Starting compilation ${txtrst}"
 
 # start compilation
-brunch "pa_$device-userdebug";
+brunch "pa_$device-eng";
 echo -e ""
 
 # if we cant upload the file, status 4 will be sent
